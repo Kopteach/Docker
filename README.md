@@ -14,7 +14,7 @@
  
  ## Sans docker-compose
  
- ### IMPORTANT : Le container de la base de donnée doit être crée avant le container du serveur web
+ ### IMPORTANT : Le container de la base de donnée doit être créé avant le container du serveur web
 
  ### Etape 1 : Création du container de base de donnée
  
@@ -40,7 +40,7 @@
 
         docker run -d --name <name container web> -p 8080:8080 --link <name container bdd> <name image web>
         
- ### Etape 3 : Affichage de l'application sur un navigateur
+ ## Finalisation : Affichage de l'application sur un navigateur
  
  Pour cela, vous devez rentrer l'url suivante dans un navigateur web : http://localhost:8080/dbproject/accueil.jsp
  
