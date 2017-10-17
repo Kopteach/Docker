@@ -16,7 +16,7 @@
         
 3) Créer le container à partir de l'image <name image>
   
-        docker run -d --name <name container bdd> <name image>
+        docker run -d --name <name container bdd> -v /var/lib/postgresql/data /<name image>
  
 ### Etape 2 : Création du container de serveur web
 
@@ -28,7 +28,11 @@
 
 3) Créer le container à partir de l'image <name image web>
 
-        docker run -d --name <name container web> -p <port source>:<port destination> --link <name container bdd> <name image web>
+        docker run -d --name <name container web> -p 8080:8080 --link <name container bdd> <name image web>
+        
+ ### Etape 3 : Affichage de l'application sur un navigateur
+ 
+ Pour cela, vous devez rentrer l'url suivante dans un navigateur web : http:localhost:8080/dbproject/accueil.jsp
 
  
  
