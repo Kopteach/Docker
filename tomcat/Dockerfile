@@ -1,5 +1,5 @@
 FROM tomcat:8-jre8
 
-COPY dbproject.war /usr/local/tomcat/webapps
+COPY ./dbproject.war /usr/local/tomcat/webapps
 
 RUN apt-get update && apt-get install -y postgresql-9.5
