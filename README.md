@@ -5,6 +5,16 @@
  Faire communiquer un container de serveur web __tomcat:8-jre8__ avec un container de base de donnée __postgres:9.5__.
  
  #### IMPORTANT : Le container de la base de donnée doit être crée avant le container du serveur web
+ 
+ ## Avec docker-compose
+ 
+ 1) Se placer à la racine du projet
+ 
+ 2) Lancer le docker-compose.yml :
+
+        docker-compose up -d --build
+ 
+ ## Sans docker-compose
 
  ### Etape 1 : Création du container de base de donnée
  
