@@ -32,7 +32,7 @@
         
  ### Etape 3 : Affichage de l'application sur un navigateur
  
- Pour cela, vous devez rentrer l'url suivante dans un navigateur web : http:localhost:8080/dbproject/accueil.jsp
+ Pour cela, vous devez rentrer l'url suivante dans un navigateur web : http://localhost:8080/dbproject/accueil.jsp
 
  
  
