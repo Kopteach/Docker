@@ -10,7 +10,7 @@
  
  2) Lancer le docker-compose.yml :
 
-        docker-compose up -d --build
+        docker-compose up -d 
  
  ## Sans docker-compose
  
