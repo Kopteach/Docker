@@ -33,6 +33,10 @@
  ### Etape 3 : Affichage de l'application sur un navigateur
  
  Pour cela, vous devez rentrer l'url suivante dans un navigateur web : http://localhost:8080/dbproject/accueil.jsp
+ 
+ Si vous utilisez Docker Toolbox : http://<adresse IP générée par toolbox>/dbproject/accueil.jsp
+ 
+ L'adresse IP qui est généralement générée est : 192.168.99.100.
 
  
  
