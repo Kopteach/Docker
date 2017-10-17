@@ -22,11 +22,11 @@
 
 2) Créer l'image à partir du Dockerfile 
 
-        docker build -t <name image bdd> .
+        docker build -t <name_image_bdd> .
         
 3) Créer le container à partir de l'image <name image>
   
-        docker run -d --name <name container bdd> -v /var/lib/postgresql/data /<name image>
+        docker run -d --name <name_container_bdd> -v /var/lib/postgresql/data /<name image>
  
 ### Etape 2 : Création du container de serveur web
 
@@ -34,11 +34,11 @@
 
 2) Créer l'image à partir du Dockerfile
 
-        docker build -t <name image web> .
+        docker build -t <name_image_web> .
 
 3) Créer le container à partir de l'image <name image web>
 
-        docker run -d --name <name container web> -p 8080:8080 --link <name container bdd> <name image web>
+        docker run -d --name <name_container_web> -p 8080:8080 --link <name_container_bdd> <name_image_web>
         
  ## Finalisation : Affichage de l'application sur un navigateur
  
