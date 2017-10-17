@@ -1,0 +1,17 @@
+version: '3'
+services:
+ myapp:
+  build: ./tomcat
+  ports:
+   - "8888:8080"
+  depends_on:
+   - db
+ db:
+  build: ./postgres
+  ports:
+   - "5432:5432"
+  volumes:
+   - db_data:/var/lib/postgresql/data
+  container_name: db
+volumes:
+ db_data:
