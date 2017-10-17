@@ -26,7 +26,7 @@
         
 3) Créer le container à partir de l'image <name image>
   
-        docker run -d --name <name_container_bdd> -v /var/lib/postgresql/data /<name image>
+        docker run -d --name <name_container_bdd> -v /var/lib/postgresql/data <name_image_bdd>
  
 ### Etape 2 : Création du container de serveur web
 
