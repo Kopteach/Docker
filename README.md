@@ -14,7 +14,7 @@
  
  ## Sans docker-compose
  
- ### IMPORTANT : Le container de la base de donnée doit être créé avant le container du serveur web
+ ### :no_entry: IMPORTANT : Le container de la base de donnée doit être créé avant le container du serveur web
 
  ### Etape 1 : Création du container de base de donnée
  
